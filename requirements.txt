@@ -1,0 +1,5 @@
+alpaca_trade_api
+numpy
+sounddevice
+pandas
+python-dotenv
