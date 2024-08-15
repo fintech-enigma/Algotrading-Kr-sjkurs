@@ -3,3 +3,4 @@ numpy
 sounddevice
 pandas
 python-dotenv
+pandas_ta
