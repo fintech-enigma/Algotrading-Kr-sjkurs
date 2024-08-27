@@ -53,7 +53,9 @@ Gå til [code.visualstudio.com](https://code.visualstudio.com/) og installer.
 
 1. Sørg for å ha bruker på [github.com](https://github.com/).
 
-2. Skriv følgende inn i terminalen: 
+2. Last ned git fra [git-scm.com/downloads](https://git-scm.com/downloads).
+
+3. Skriv følgende inn i terminalen: 
 
     ````
     git config --global user.name "DITT BRUKERNAVN"
@@ -63,14 +65,14 @@ Gå til [code.visualstudio.com](https://code.visualstudio.com/) og installer.
     git config --global user.email "NAVN@eksempel.com"
     ````
 
-3. Klon repoet på din PC og åpne i VS-Code
+4. Klon repoet på din PC og åpne i VS-Code
 
     ````
-    git clone https://github.com/fintech-enigma/Algotrading-Kr-sjkurs.git
+    git clone https://github.com/fintech-enigma/Algotrading-Kraesjkurs.git
     ````
 
     ````
-    cd Algotrading-Kr-sjkurs
+    cd Algotrading-Kraesjkurs
     ````
 
     ````
