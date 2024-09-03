@@ -55,7 +55,7 @@ def trading_logic(ticker: str)->None:
             print("Something went shitways while buying...")
     elif current['close'] < current['ema_30'] and trade_active:
         try:
-            api.close_all_positions()
+            api.close_position(ticker, qty=10)
             trade_active = False
             print(f"Sold {ticker} at price {current['close']} at 9EMA:{current['ema_30']}")
         except:
